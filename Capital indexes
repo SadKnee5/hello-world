@@ -1,0 +1,11 @@
+def capital_indexes(word):
+    y = enumerate(word)
+    list_of_number = []
+    for a, b in y:
+        if b.isupper() is True:
+            list_of_number.append(a)
+    print(list_of_number)
+    return()
+    
+
+capital_indexes("HI")
